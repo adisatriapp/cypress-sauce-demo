@@ -6,7 +6,10 @@ let authData = {
   error: "performance_glitch_user",
   visual: "visual_user",
   password: "secret_sauce",
+  invalid: "invalid_user",
 
+  text_error_empty: "Epic sadface: Username is required",
+  text_error_empty_password: "Epic sadface: Password is required",
   text_error_locked: "Epic sadface: Sorry, this user has been locked out.",
   text_error_standard: "Epic sadface: Username and password do not match any user in this service",
   text_error_visual: "Epic sadface: Username and password do not match any user in this service",

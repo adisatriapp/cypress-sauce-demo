@@ -25,9 +25,15 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 Cypress.Commands.add('input_text', (selector, text) => {
-    cy.get(selector)
-        .clear()
-        .type(text)
+    
+    if (text === null || text === '') {
+        cy.get(selector)
+            .clear()
+    } else {
+        cy.get(selector)
+            .clear()
+            .type(text)
+    }
 })
 
 Cypress.Commands.add('click_button', (selector) => {

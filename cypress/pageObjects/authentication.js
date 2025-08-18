@@ -12,13 +12,12 @@ class Authentication {
         cy.get(text.error_text).should('contain', error)
     }
 
-    ValidateProducts_UserProblem() {
+    ValidateProducts() {
         cy.get(text.products).should('contain', productsData.products1)
         cy.get(text.products).should('contain', productsData.products2)
         cy.get(text.products).should('contain', productsData.products3)
         cy.get(text.products).should('contain', productsData.products4)
         cy.get(text.products).should('contain', productsData.products5)
-        
     }
 
     logout() {
