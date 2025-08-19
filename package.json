@@ -1,0 +1,23 @@
+{
+  "name": "cypress-sauce-demo",
+  "version": "1.0.0",
+  "description": "I made an example of automation using cypress with the target website being https://www.saucedemo.com/",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adisatriapp/cypress-sauce-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adisatriapp/cypress-sauce-demo/issues"
+  },
+  "homepage": "https://github.com/adisatriapp/cypress-sauce-demo#readme",
+  "devDependencies": {
+    "cypress": "^14.5.4"
+  }
+}
